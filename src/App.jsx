@@ -10,12 +10,7 @@ function App() {
   return (
     <>
       <h1>N-dim-tic-tac-toe</h1>
-        <label htmlFor="">Select value of N: </label>
-        <input type="number" id='n' />
-        <button onClick={startGame}>Start game</button>
-        {/* On clicking start game, I can render a html grid right ????? */}
-      <br />
-      {n}
+        
     </>
   )
 }
