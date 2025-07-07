@@ -1,0 +1,43 @@
+
+.box {
+  border: 1px solid black;
+  padding: 5px;
+  width: 3em;
+  display: inline-block;
+  background-color: white;
+}
+.box:hover {
+  background-color: gray;
+  transform: scale(1.05);
+}
+
+.row {
+  display: flex;
+}
+
+.heading {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+.other {
+  margin-left: auto;
+}
+
+.input {
+  display: block;
+}
+.play-button {
+  background-color: antiquewhite;
+  font-size: x-large;
+  margin: 1em;
+}
+.play-button:hover {
+  transform: scale(1.15);
+  border-color: aqua;
+  box-shadow: 0 0 10px #00b894;
+  outline: none;
+}
