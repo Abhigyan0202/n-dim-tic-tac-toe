@@ -13,7 +13,7 @@ function App() {
   }
   return (
     <>
-      <h1 className='heading'>N-dim-tic-tac-toe</h1>
+      <h1 className='heading'>N*N Tic-Tac-Toe</h1>
       <div className='container'>
         <input type="number" id='n' className='input' />
       </div>
